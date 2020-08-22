@@ -52,15 +52,18 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-175458854-2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-175458854-2');\n</script>\n",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
-    "gdpr": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "360code | Cursos Online",
-        "meta_descr": "",
+        "meta_descr": "A 360code é a sua startup de cursos online. Aqui você tem acesso aos melhores cursos online, gratuitos e pagos da internet.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
